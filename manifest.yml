@@ -1,0 +1,6 @@
+applications:
+- name: deploydjango
+memory: 256M
+command: bash ./run.sh
+buildpack: https://github.com/cloudfoundry/python-buildpack
+path: .
